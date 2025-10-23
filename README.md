@@ -12,49 +12,39 @@ A modern React application that transforms Wikipedia articles into interactive e
 
 ## 🎯 Features
 
-* **📝 Quiz Generation**: Convert Wikipedia URLs into quizzes
-* **🎯 Interactive Learning**: Multiple-choice questions with scoring
-* **📚 Quiz History**: Track and revisit previous quizzes
-* **📱 Responsive**: Works on desktop and mobile
-* **⚡ Real-time Feedback**: Instant results and explanations
+- **📝 Quiz Generation**: Convert Wikipedia URLs into quizzes
+- **🎯 Interactive Learning**: Multiple-choice questions with scoring
+- **📚 Quiz History**: Track and revisit previous quizzes
+- **📱 Responsive**: Works on desktop and mobile
+- **⚡ Real-time Feedback**: Instant results and explanations
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React 18 + Vite
-* Tailwind CSS
-* Fetch API
-* Deploy-ready for Vercel/Netlify
+- React 18 + Vite
+- Tailwind CSS
+- Fetch API
+- Deploy-ready for Vercel/Netlify
 
 ---
 
 ## 📸 Screenshots
 
-### 🏠 Main Interface
+### 🏠 Home Interface
 
-![Main Interface](https://via.placeholder.com/800x400/3B82F6/FFFFFF?text=AI+Quiz+Generator+Home)
-*Clean main interface with tab navigation*
+![Home Interface](./src/screenshots/home.png)
+_Main interface with tabs_
 
 ### 📝 Quiz Generation
 
-![Quiz Generation](https://via.placeholder.com/800x400/10B981/FFFFFF?text=Generate+Quiz+From+Wikipedia+URL)
-*Input Wikipedia URL and generate AI-powered quizzes*
-
-### 🎯 Interactive Quiz
-
-![Interactive Quiz](https://via.placeholder.com/800x400/8B5CF6/FFFFFF?text=Take+Quiz+with+Multiple+Choice+Questions)
-*Interactive quiz interface with answer selection*
-
-### 📊 Results & Explanations
-
-![Quiz Results](https://via.placeholder.com/800x400/F59E0B/FFFFFF?text=View+Score+and+Explanations)
-*See your score and learn from detailed explanations*
+![Quiz Generation](./src/screenshots/quiz.png)
+_Generate quiz from Wikipedia URL_
 
 ### 📚 Quiz History
 
-![History Tab](https://via.placeholder.com/800x400/EF4444/FFFFFF?text=Browse+Quiz+History)
-*Track all generated quizzes with timestamps*
+![Quiz History](./src/screenshots/history.png)
+_Track all generated quizzes_
 
 ---
 
@@ -165,7 +155,7 @@ const quiz = await apiService.generateQuiz(
 
 ```bash
 npm run dev          # Development
-npm run build        # Production build  
+npm run build        # Production build
 npm run preview      # Preview build
 ```
 
@@ -173,11 +163,12 @@ npm run preview      # Preview build
 
 ## 📞 Support
 
-* Check browser console for errors
-* Verify API URL configuration
-* Test with example Wikipedia URLs
+- Check browser console for errors
+- Verify API URL configuration
+- Test with example Wikipedia URLs
 
 ---
 
 **Transform any Wikipedia article into an engaging learning experience!** 🚀
 
+screenshot is not show in github why?
