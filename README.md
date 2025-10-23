@@ -170,5 +170,3 @@ npm run preview      # Preview build
 ---
 
 **Transform any Wikipedia article into an engaging learning experience!** 🚀
-
-screenshot is not show in github why?
